@@ -1,0 +1,25 @@
+class Solution {
+    public int countOrders(int n) {
+        // Initialize variables to store the results for delivery and pickup
+        long resDelivary = 1L, resPickup=1L;
+
+        // Define the modulo value (10^9+7)
+        long modulo = 1000000007L; 
+
+	 // Calculate all possible values of delivery: n!
+        for(int i = 1; i <= n; i++){
+            resDelivary = (resDelivary*i)%modulo;
+        }
+
+	// Calculate all possible values of pickup: (2n-1)!
+        for(int i = 3; i < (2*n); i+=2 ){
+            resPickup = (resPickup * i)%modulo;
+        }
+
+	// Calculate the final result
+        long result = (resDelivary * resPickup) % modulo;
+
+	// Cast the result to int and return
+        return (int) result;
+    }
+}
