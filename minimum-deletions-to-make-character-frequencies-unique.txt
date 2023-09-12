@@ -1,0 +1,31 @@
+import java.util.*;
+
+class Solution {
+
+    public int minDeletions(String s) {
+        int [] frequencies = new int[26]; // number of chars in alphabet 
+
+        for(char character : s.toCharArray()){
+            frequencies[character - 'a']++; // count the frequency of chars
+        }
+
+        Arrays.sort(frequencies);
+
+        int deleationCount = 0;
+
+	/*
+	  loop from higher value to lower we don't need to loop from i = 25
+	*/
+        for(int i = 24; i >= 0; i--){ 
+            if(frequencies[i] == 0){break;}
+            if(frequencies[i] >= frequencies[i+1]){
+                int prev = frequencies[i];
+                frequencies[i] = Math.max(0, frequencies[i+1]-1);
+                deleationCount += prev - frequencies[i]; // update deleationCount
+            }
+        }
+     return deleationCount;
+    }
+}
+
+
