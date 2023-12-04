@@ -67,7 +67,7 @@ for the two solutions
 
 **Problem Description:**
 
-[Array Pair Sum on LeetCode](https://leetcode.com/problems/array-partition-i/)
+[Array Pair Sum on LeetCode](https://leetcode.com/problems/array-partition/)
 
 **Submission:**
 
