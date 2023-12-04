@@ -47,9 +47,9 @@ Feel free to explore the code and provide any feedback or improvements!
 1. **Solution 1:**
 I used the following approach:
 
-1. Sort the array to easily identify the longest sides of potential triangles.
-2. Iterate through the sorted array and check if the current three elements satisfy the triangle inequality.
-3. If true, calculate the perimeter and update the largest perimeter if the current perimeter is larger.
+   - Sort the array to easily identify the longest sides of potential triangles.
+   - Iterate through the sorted array and check if the current three elements satisfy the triangle inequality.
+   - If true, calculate the perimeter and update the largest perimeter if the current perimeter is larger.
   
 2. **Solution 2:**
 It is better than the prev approach 
