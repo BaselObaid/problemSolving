@@ -13,10 +13,6 @@ This repository contains my solutions to various problems on LeetCode, implement
 
 [Minimum Absolute Difference on LeetCode](https://leetcode.com/problems/minimum-absolute-difference/)
 
-**Solution:**
-
-- [Java Solution](./src/Solution.java)
-
 **Submission:**
 
 - [LeetCode Submission](https://leetcode.com/submissions/detail/1112204293/)
@@ -41,10 +37,6 @@ Feel free to explore the code and provide any feedback or improvements!
 **Problem Description:**
 
 [Largest Perimeter Triangle on LeetCode](https://leetcode.com/problems/largest-perimeter-triangle/)
-
-**Solution:**
-
-- [Java Solution](./src/Solution.java)
 
 **Submission:**
 - [LeetCode Submission](https://leetcode.com/problems/largest-perimeter-triangle/submissions/1112231761/)
