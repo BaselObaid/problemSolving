@@ -6,6 +6,7 @@ This repository contains my solutions to various problems on LeetCode, implement
 
 - [Minimum Absolute Difference](#minimum-absolute-difference)
 - [Largest Perimeter Triangle](#largest-perimeter-triangle)
+- [Array Pair Sum](#array-pair-sum)
 
 ## Minimum Absolute Difference
 
@@ -62,4 +63,26 @@ for the two solutions
 - Time Complexity: O(n log n) - due to sorting.
 - Space Complexity: O(1) - constant space for variables.
 
+## Array Pair Sum
+
+**Problem Description:**
+
+[Array Pair Sum on LeetCode](https://leetcode.com/problems/array-partition-i/)
+
+**Submission:**
+
+- [LeetCode Submission](https://leetcode.com/problems/array-partition/submissions/1112353785)
+
+**Explanation:**
+
+I used the following approach:
+
+1. Sort the array in non-decreasing order to pair adjacent elements effectively.
+2. Iterate through the sorted array, and add every alternate element starting from the first element (index 0).
+3. The sum of the odd-indexed elements represents the maximized sum.
+
+**Complexity Analysis:**
+
+- Time Complexity: O(n log n) - due to sorting.
+- Space Complexity: O(1) - constant space for variables.
 
