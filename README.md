@@ -7,6 +7,7 @@ This repository contains my solutions to various problems on LeetCode, implement
 - [Minimum Absolute Difference](#minimum-absolute-difference)
 - [Largest Perimeter Triangle](#largest-perimeter-triangle)
 - [Array Pair Sum](#array-pair-sum)
+- [eliminate maximum number of monsters](#eliminate-maximum-number-of-monsters)
 
 ## Minimum Absolute Difference
 
@@ -85,4 +86,30 @@ I used the following approach:
 
 - Time Complexity: O(n log n) - due to sorting.
 - Space Complexity: O(1) - constant space for variables.
+
+# eliminate maximum number of monsters
+
+**Problem Description:**
+
+[Eliminate Maximum on LeetCode](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)
+
+**Submission:**
+
+- [LeetCode Submission](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/submissions/1113899261)
+
+**Explanation:**
+
+I used the following approach:
+
+1. Calculate the time required for each monster to reach the city.
+2. Sort the array of time values in ascending order.
+3. Iterate through the sorted array and find the first monster that cannot be eliminated before reaching the city.
+4. Return the count of monsters that can be eliminated before this point.
+
+**Complexity Analysis:**
+
+- Time Complexity: O(n log n) - due to sorting.
+- Space Complexity: O(1) - constant space for variables.
+
+
 
